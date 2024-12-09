@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
     <div
       className={`
         fixed top-5 left-1/2 transform -translate-x-1/2 transition-all duration-500
-        ${isScrolled ? "w-[30%]" : "w-full"}
+        ${isScrolled ? "w-[40%]" : "w-full"}
         bg-white/30 backdrop-blur-md shadow-lg px-4 py-4 rounded-full
       `}
       style={{
@@ -33,12 +34,20 @@ const Navbar = () => {
       }}
     >
       <nav className="flex justify-between items-center px-4">
-        <div className="text-lg font-bold">Agency</div>
-        <ul className="flex space-x-4">
+        <div className="fontmed text-lg">
+          <Image
+            className="w-20"
+            alt="logo"
+            src="/logodeclic.png"
+            width={1000}
+            height={1000}
+          />
+        </div>
+        <ul className="fontreg flex space-x-5">
           <li>
             <a
               href="#"
-              className="text-gray-700 hover:text-gray-900 transition"
+              className="text-black text-xl hover:text-red-700 transition"
             >
               Home
             </a>
@@ -46,7 +55,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-gray-700 hover:text-gray-900 transition"
+              className="text-black text-xl hover:text-red-700 transition"
             >
               About
             </a>
@@ -54,7 +63,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-gray-700 hover:text-gray-900 transition"
+              className="text-black text-xl hover:text-red-700 transition"
             >
               Services
             </a>
@@ -62,7 +71,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-gray-700 hover:text-gray-900 transition"
+              className="text-black text-xl hover:text-red-700 transition"
             >
               Contact
             </a>

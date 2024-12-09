@@ -20,12 +20,22 @@
   font-weight: normal;
   font-style: normal;
 }
-.fontbold{
+@font-face {
+  font-family: "fontunb";
+  src: url("/Fonts/Unbounded-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.fontunb {
+  font-family: "fontunb";
+}
+.fontbold {
   font-family: "fontbold";
 }
-.fontmed{
+.fontmed {
   font-family: "fontmed";
 }
-.fontreg{
+.fontreg {
   font-family: "fontreg";
 }
+

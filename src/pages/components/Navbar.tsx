@@ -43,11 +43,11 @@ const Navbar = () => {
             height={1000}
           />
         </div>
-        <ul className="fontreg flex space-x-5">
+        <ul className="fontunb flex space-x-5">
           <li>
             <a
               href="#"
-              className="text-black text-xl hover:text-red-700 transition"
+              className="text-black text-lg hover:text-red-700 transition"
             >
               Home
             </a>
@@ -55,7 +55,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-black text-xl hover:text-red-700 transition"
+              className="text-black text-lg hover:text-red-700 transition"
             >
               About
             </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-black text-xl hover:text-red-700 transition"
+              className="text-black text-lg hover:text-red-700 transition"
             >
               Services
             </a>
@@ -71,7 +71,7 @@ const Navbar = () => {
           <li>
             <a
               href="#"
-              className="text-black text-xl hover:text-red-700 transition"
+              className="text-black text-lg hover:text-red-700 transition"
             >
               Contact
             </a>
